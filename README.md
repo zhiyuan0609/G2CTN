@@ -4,4 +4,4 @@ G2CTN processes point clouds by first extracting group sampling features through
 # 👉 NOTE
 This repo is implementation for G2CTN in pytorch.🔥
 # 🌀 Introduction
-G2CTN's GS-GL module innovatively combines convolutional local feature extraction with Transformer-based global modeling. Its Group Sampling Strategy (GSS) integrates FPS and VPS to capture multi-scale geometric features. The architecture employs GSF blocks for local geometry analysis and GLF blocks with PVA/GLA attention for global context, effectively addressing point cloud sparsity while preserving both detailed and structural information.
+G2CTN's GS-GL module innovatively combines convolutional local feature extraction with Transformer-based global modeling. Its Group Sampling Strategy (GSS) integrates FPS and VPS to capture multi-scale geometric features. The architecture employs GSF blocks for local geometry analysis and GLF blocks with PVA/GLA attention for global context, effectively addressing point cloud sparsity while preserving both detailed and structural information.💥
