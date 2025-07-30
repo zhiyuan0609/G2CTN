@@ -19,3 +19,6 @@ conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=
 ```
 - **Installation**
 ```bash
+git clone https://github.com/zhiyuan0609/G2CTN.git
+pip install -r requirements.txt
+pip install pointnet2_ops_lib/.
