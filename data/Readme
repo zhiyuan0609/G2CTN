@@ -1,2 +1,4 @@
 data/modelnet40_normal_resampled/
-data/
+data/shapenetcore_partanno_segmentation_benchmark_v0_normal/
+data//h5_files/
+data/Stanford3dDataset_v1.2_Aligned_Version/
