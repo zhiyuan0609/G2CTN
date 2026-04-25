@@ -23,8 +23,3 @@ git clone https://github.com/zhiyuan0609/G2CTN.git
 pip install -r requirements.txt
 pip install pointnet2_ops_lib/.
 ```
-# 📌 Method
-![](https://github.com/zhiyuan0609/G2CTN/blob/main/figures/GSF.png)
-In the GSF block main framework, we provide a detailed presentation of the Local Feature Extraction layer. After sampling the point set, the voxel set is grouped by the query ball method, and K points are taken within a given radius. The point features and voxel features are learned using convolution, and finally concatenated to obtain P-V features. Light yellow arrows indicate the learning process for point features, and purple arrows indicate the learning process for voxel features.
-![](https://github.com/zhiyuan0609/G2CTN/blob/main/figures/GLF.png)
-The GLF block, it consists of a Point-Voxel Attention and a Global Location Attention. Point-Voxel Attention mainly learns group sampling features of point and voxel sets, and Global Location Attention mainly learns global features.
